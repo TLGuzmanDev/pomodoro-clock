@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="scripts/app.js"></script>
+        <script src="https://kit.fontawesome.com/c05dc59e96.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Pomodoro Clock</h1>
+            <section id="timer-options">
+                <div id="session-options">
+                    <h2>Session</h2>
+                    <i id="session-inc" class="fas fa-angle-up"></i>
+                    <div id="session-time">25</div>
+                    <i id="session-dec" class="fas fa-angle-down"></i>
+                </div>
+                <div id="break-options">
+                    <h2>Break</h2>
+                    <i id="break-inc" class="fas fa-angle-up"></i>
+                    <div id="break-time">5</div>
+                    <i id="break-dec" class="fas fa-angle-down"></i>
+                </div>
+            </section>
+            <section id="timer">
+                <div id="display">
+                    <h2 id="activity">Session</h2>
+                    <div id="clock">25:00</div>
+                </div>
+                <div id="timer-icons">
+                    <i id="start" class="fas fa-play"></i>
+                    <i id="stop" class="fas fa-stop"></i>
+                    <i id="pause" class="fas fa-pause"></i>
+                    <i id="reset" class="fas fa-sync-alt"></i>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
