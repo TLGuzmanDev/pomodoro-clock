@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+    text-align: center;
+}
+
+#timer-options {
+    display: flex;
+    margin: 10px auto;
+    width: 450px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+#session, #break {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#session h2, #break h2 {
+    margin: 0;
+    flex-basis: 100%;
+    font-size: 25px;
+}
+
+#session i, #break i {
+    flex: 1;
+    font-size: 2em;
+}
+
+#session-time, #break-time {
+    flex: 1;
+    font-size: 2em;
+}
+
+#timer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    width: 450px;
+    height: 250px;
+    color: white;
+    background-color: black;
+}
+
+#display {
+    flex-basis: 100%;
+    order: 3;
+}
+
+#display h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+#clock {
+    font-size: 4em;
+}
+
+#timer i {
+    flex: 1;
+    font-size: 2em;
+}
+
+#start {
+    order: 1;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+#reset {
+    order: 2;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#pause {
+    order: 4;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#stop {
+    order: 5;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
