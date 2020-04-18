@@ -32,7 +32,6 @@ body {
 
 #session i, #break i {
     flex: 1;
-    font-size: 2em;
 }
 
 #session-time, #break-time {
@@ -67,7 +66,6 @@ body {
 
 #timer i {
     flex: 1;
-    font-size: 2em;
 }
 
 #start {
@@ -92,4 +90,12 @@ body {
     order: 5;
     padding-left: 50px;
     padding-bottom: 10px;
+}
+
+i {
+    font-size: 2em;
+}
+
+i:active {
+    font-size: 1.9em;
 }
