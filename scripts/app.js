@@ -65,13 +65,13 @@ function reset() {
 
 function setBreak() {
     isSession = false;
-    activity.textContent = 'Break';
+    activity.textContent = 'Break Time';
     timer.textContent = `${breakTime.textContent}:${'00'}`; 
 }
 
 function setSession() {
     isSession = true;
-    activity.textContent = 'Session';
+    activity.textContent = 'Session Time';
     timer.textContent = `${sessionTime.textContent}:${'00'}`; 
 }
 

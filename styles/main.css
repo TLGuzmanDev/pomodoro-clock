@@ -4,8 +4,17 @@
 
 body {
     margin: 0;
-    background-color: gray;
+    background-color: #8D99AE;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #2b2d42;
+}
+
+h1 {
+    margin: 10px auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #ef233c;
 }
 
 #timer-options {
@@ -13,8 +22,9 @@ body {
     margin: 10px auto;
     width: 450px;
     height: 100px;
-    color: white;
-    background-color: black;
+    border: solid 5px #2B2D42;
+    border-radius: 20px;
+    background-color: #edf2f4;
 }
 
 #session, #break {
@@ -46,13 +56,14 @@ body {
     margin: 10px auto;
     width: 450px;
     height: 250px;
-    color: white;
-    background-color: black;
+    border: solid 5px #2B2D42;
+    border-radius: 20px;
+    background-color: #edf2f4; 
 }
 
 #display {
     flex-basis: 100%;
-    order: 3;
+    padding-bottom: 10px;
 }
 
 #display h2 {
@@ -66,30 +77,6 @@ body {
 
 #timer i {
     flex: 1;
-}
-
-#start {
-    order: 1;
-    padding-right: 50px;
-    padding-top: 10px;
-}
-
-#reset {
-    order: 2;
-    padding-left: 50px;
-    padding-top: 10px;
-}
-
-#pause {
-    order: 4;
-    padding-right: 50px;
-    padding-bottom: 10px;
-}
-
-#stop {
-    order: 5;
-    padding-left: 50px;
-    padding-bottom: 10px;
 }
 
 i {
